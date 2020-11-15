@@ -1,0 +1,137 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    color: #E5E5E5;
+    
+}
+/* header */
+header {
+    width: 1343px;
+    height: 755px;
+    background-image: url(../assets/img/imagen-fondo.jpg);
+    background-position: center;
+background-size: cover;
+position: relative;
+
+}
+.nav-menu-main-div {
+background-color:#0009 ;
+width: 1235px;    
+height: 70px;
+    padding: 0 56px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+
+}
+.nav-menu-main-div-logo {
+    width: 93px;
+    height: 30px;
+    padding:5px 0 0 20px;
+}
+
+.nav-menu-main-div-categories {
+    width: 411px;
+    height: 16px;
+    /* background-color: darkred; */
+    margin-right: 60vh;
+    display: flex;
+    justify-content:start;
+    
+}
+ul{
+list-style: none;
+font-size: 14px;
+}
+ul li {
+    display: inline-block;
+}
+
+ul li a {
+    display: block;
+    margin: 0 10px;
+    color:#E5E5E5;
+}
+.nav-menu-main-div-icons-right {
+    width: 273px;
+    height: 68px;
+    /* background-color: goldenrod; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-menu-main-div-icons-right-icon-1 {
+    width: 18px;
+    height: 18px;
+    /* background-color: rgb(148, 202, 0); */
+}
+.nav-menu-main-div-icons-right-icon-2 {
+    width: 46px;
+    height: 16px;
+    /* background-color: rgb(231, 226, 229); */
+}
+.nav-menu-main-div-icons-right-icon-3 {
+    width: 20px;
+    height: 24px;
+    /* background-color: rgb(20, 181, 255); */
+}
+.nav-menu-main-div-icons-right-icon-4 {
+    width: 32px;
+    height: 33px;
+    /* background-color: rgb(28, 255, 20); */
+}
+.nav-menu-main-div-icons-right-icon-5 {
+    width: 52px;
+    height: 32px;
+    /* background-color: deeppink; */
+    display: flex;
+
+    
+}
+
+.w-50 {
+    width: 50%;
+}
+.h-50 {
+    height: 50%;
+}
+.bg-c {
+background-color: floralwhite;
+}
+.w-h-100 {
+    width: 100%;
+    height:100% ;
+}
+i {
+    font-size: 22px;
+    color:#E5E5E5
+}
+.d-f-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.h-100 {
+    height: 100%;
+}
+.nav-menu-main-div-icons-right-icon-5-b {
+    padding: 5px;
+
+}
+.div-content-info {
+    width: 483px;
+    height: 497px;
+    background-color: orangered;
+    margin-left: 53px;
+    display: flex;
+    align-items: flex-end;
+    
+}
+.div-content-info-main {
+   width:483px ;
+    height: 315px;
+    background-color: tomato;
+}
